@@ -1,0 +1,22 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+*.tfplan
+*.tfplan.json
+
+# Sensitive variables
+*.auto.tfvars
+*.auto.tfvars.json
+
+# Terragrunt
+.terragrunt-cache/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
