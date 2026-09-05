@@ -1,3 +1,7 @@
+terraform {
+  backend "s3" {}
+}
+
 resource "aws_ecr_repository" "services" {
   for_each = toset(var.repositories)
 

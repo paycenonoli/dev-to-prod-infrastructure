@@ -1,3 +1,8 @@
+include "root" {
+  path = "../../../terragrunt.hcl"
+}
+
+
 terraform {
   source = "../../../modules/ecr"
 }
